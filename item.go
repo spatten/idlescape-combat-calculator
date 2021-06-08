@@ -22,7 +22,8 @@ type Item struct {
 
 type ItemList map[string]Item
 
-type priceList struct {
+// prices.json is an object with a key of "items" pointing at an array of items
+type priceJSON struct {
 	Items []Item
 }
 
@@ -38,7 +39,7 @@ func LoadItems() (ItemList, error) {
 }
 
 func ParseItems(pricesFile io.Reader) (ItemList, error) {
-	var prices priceList
+	var prices priceJSON
 	items := make(ItemList)
 
 	bytes, err := ioutil.ReadAll(pricesFile)
