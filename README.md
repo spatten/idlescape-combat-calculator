@@ -70,3 +70,5 @@ and pasting something like this in it:
 
 {{Combat Logs|Lesser Demon}}
 ```
+
+To generate the wiki test for the full list of monsters, see `cmd/generateWikiText/main.go`
