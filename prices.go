@@ -1,4 +1,4 @@
-package combatCalculator
+package combatcalculator
 
 import (
 	"encoding/json"

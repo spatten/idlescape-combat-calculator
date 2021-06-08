@@ -1,12 +1,12 @@
 package main
 
 import (
-	"combatCalculator"
+	"combatcalculator"
 	"log"
 )
 
 func main() {
-	itemList, err := combatCalculator.LoadItems()
+	itemList, err := combatcalculator.LoadItems()
 	if err != nil {
 		log.Fatalf("Error while loading prices: %v\n", err)
 	}
