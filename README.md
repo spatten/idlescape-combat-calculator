@@ -50,3 +50,23 @@ Price {
   timestamp,
   price: int,
 }
+
+## Drop Tables
+
+The data is on this page: https://idlescape.wiki/index.php?title=Template:Combat_Logs&action=edit
+
+Not sure if there's a JSON representation of this anywhere.
+
+You can get reasonable HTML by going to this page: https://idlescape.wiki/p/Special:ExpandTemplates
+
+and pasting something like this in it:
+
+```
+<p>Small Rat</p>
+
+{{Combat Logs|Small Rat}}
+
+<p>Lesser Demon</p>
+
+{{Combat Logs|Lesser Demon}}
+```
