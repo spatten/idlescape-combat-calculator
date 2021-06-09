@@ -19,4 +19,4 @@ Obsidian Plate Leggings, 2
 Iron Boots, 18
 Obsidian Boots, 11
 Mithril Boots, 3
-Black Knight's Trial, 3
+# Black Knight's Trial, 3
