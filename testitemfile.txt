@@ -1,0 +1,22 @@
+# 52 hours, 38 minutes in City
+Gold, 15430000
+Sapphire, 12
+Emerald, 7
+Ruby, 5
+Diamond, 6
+Black Opal, 2
+Satchel, 2
+Obsidian Scimitar, 5
+Obsidian Battleaxe, 4
+Obsidian Daggers, 8
+Obsidian Greatsword, 3
+Obsidian Helm, 13
+Obsidian Full Helm, 10
+Obsidian Shield, 8
+Obsidian Breastplate, 3
+Obsidian Chainmail, 2
+Obsidian Plate Leggings, 2
+Iron Boots, 18
+Obsidian Boots, 11
+Mithril Boots, 3
+Black Knight's Trial, 3
