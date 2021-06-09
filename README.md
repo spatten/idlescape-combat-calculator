@@ -72,3 +72,9 @@ and pasting something like this in it:
 ```
 
 To generate the wiki test for the full list of monsters, see `cmd/generateWikiText/main.go`
+
+TODO: parse drop table HTML using net/html package: https://pkg.go.dev/golang.org/x/net/html?utm_source=godoc
+https://stackoverflow.com/questions/30109061/golang-parse-html-extract-all-content-with-body-body-tags
+Maybe use the parse API rather than the tokenizer
+
+Or maybe cascadia: https://github.com/andybalholm/cascadia

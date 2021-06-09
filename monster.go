@@ -35,7 +35,7 @@ var MonsterNames = []string{
 func GenerateWikiText() {
 	fmt.Printf("<!DOCTYPE html>\n<html>\n  <body>\n")
 	for _, name := range MonsterNames {
-		fmt.Printf("<p>%s</p>\n\n{{Combat Logs|%s}}\n\n", name, name)
+		fmt.Printf("<div class=\"monster\">\n  <p>%s</p>\n{{Combat Logs|%s}}\n</div>\n\n", name, name)
 	}
 	fmt.Printf("</body></html>")
 }
