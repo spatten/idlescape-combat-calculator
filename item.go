@@ -34,6 +34,7 @@ type priceJSON struct {
 	Items []Item
 }
 
+// LoadItems loads the items from prices.json
 func LoadItems() (ItemList, error) {
 	pricesPath := "./prices.json"
 	pricesFile, err := os.Open(pricesPath)
@@ -42,10 +43,10 @@ func LoadItems() (ItemList, error) {
 	}
 	defer pricesFile.Close()
 
-	return ParseItems(pricesFile)
+	return parseItems(pricesFile)
 }
 
-func ParseItems(pricesFile io.Reader) (ItemList, error) {
+func parseItems(pricesFile io.Reader) (ItemList, error) {
 	var prices priceJSON
 	items := make(ItemList)
 
@@ -64,17 +65,30 @@ func ParseItems(pricesFile io.Reader) (ItemList, error) {
 	return items, nil
 }
 
-func (itemList ItemList) CalculateTotal(items []ItemCount) gold {
+// CalculateTotal calculates the total worth in gold of a slice of ItemCount
+func (itemList ItemList) CalculateTotal(items []ItemCount) (gold, error) {
 	total := gold(0)
 	for _, counter := range items {
 		item, exists := itemList[counter.Name]
-		if exists {
-			total = total + item.Price*gold(counter.Count)
+		if !exists {
+			return 0, fmt.Errorf("item in list not found: %v", counter)
 		}
+		total = total + item.Price*gold(counter.Count)
 	}
-	return total
+	return total, nil
 }
 
+// ReadItemFile reads an item file
+// An item file should consist of many lines, each line having a
+// item name and a count, separated by a comma. E.g.
+//
+// Gold, 15430000
+// Sapphire, 12
+// Emerald, 7
+// Ruby, 5
+// Black Opal, 2
+//
+// Lines starting with "#" are treated as comments and ignored
 func ReadItemFile(path string) ([]ItemCount, error) {
 	itemFile, err := os.Open(path)
 	if err != nil {
@@ -82,7 +96,7 @@ func ReadItemFile(path string) ([]ItemCount, error) {
 	}
 	defer itemFile.Close()
 
-	items, err := ParseItemFile(itemFile)
+	items, err := parseItemFile(itemFile)
 	if err != nil {
 		return nil, fmt.Errorf("parsing item file: %v", err)
 	}
@@ -90,7 +104,7 @@ func ReadItemFile(path string) ([]ItemCount, error) {
 	return items, nil
 }
 
-func ParseItemFile(itemFile io.Reader) ([]ItemCount, error) {
+func parseItemFile(itemFile io.Reader) ([]ItemCount, error) {
 	scanner := bufio.NewScanner(itemFile)
 	var items []ItemCount
 	for lineNum := 0; scanner.Scan(); lineNum++ {
