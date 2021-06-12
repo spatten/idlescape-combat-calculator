@@ -61,7 +61,14 @@ func parseItems(pricesFile io.Reader) (ItemList, error) {
 	for _, item := range prices.Items {
 		items[item.Name] = item
 	}
-	items["Gold"] = Item{Name: "Gold", ID: 0, Heat: 0, Price: 1}
+	maxID := len(items)
+	items["Gold"] = Item{Name: "Gold", ID: ItemID(maxID), Heat: 0, Price: 1}
+	helm, ok := items["Obsidian Helm"]
+	if !ok {
+		return nil, fmt.Errorf("obsidian helm not found")
+	}
+	helm.Price = gold(1500000)
+	items["Obsidian Helm"] = helm
 	return items, nil
 }
 
