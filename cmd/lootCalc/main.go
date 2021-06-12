@@ -2,7 +2,6 @@ package main
 
 import (
 	combatcalculator "combatCalculator"
-	"fmt"
 	"log"
 	"os"
 
@@ -24,7 +23,6 @@ func main() {
 	if err != nil {
 		log.Fatalf("Error while loading item list: %v", err)
 	}
-	fmt.Printf("Items: %v\n", items)
 
 	total, err := itemList.CalculateTotal(items)
 	if err != nil {
@@ -32,5 +30,10 @@ func main() {
 	}
 
 	p := message.NewPrinter(message.MatchLanguage("en"))
-	p.Printf("total: %d\n", total)
+
+	p.Println()
+
+	p.Printf(itemList.Table(items))
+
+	p.Printf("\ntotal: %d\n", total)
 }

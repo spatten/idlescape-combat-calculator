@@ -8,6 +8,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
+
+	"golang.org/x/text/message"
 )
 
 type gold uint32
@@ -143,4 +145,21 @@ func parseItemLine(line string) (ItemCount, error) {
 		return ItemCount{}, fmt.Errorf("converting %s to int in line %s: %v", splitted[1], line, err)
 	}
 	return ItemCount{Name: name, Count: count}, nil
+}
+
+func (items ItemList) Table(counts []ItemCount) string {
+	total, _ := items.CalculateTotal(counts)
+	p := message.NewPrinter(message.MatchLanguage("en"))
+	table := p.Sprintf("%20s\t%s\t%s\t%s\t%s\n", "Item", "Count", "Gold/Item", "Gold Total", "Percent")
+	for _, count := range counts {
+		item, ok := items[count.Name]
+		if !ok {
+			continue
+		}
+		amount := item.Price * gold(count.Count)
+		percent := float32(amount) / float32(total) * 100.0
+		line := p.Sprintf("%20s\t%d\t%10d\t%10d\t%.2f\n", count.Name, count.Count, item.Price, amount, percent)
+		table = table + line
+	}
+	return table
 }
