@@ -1,0 +1,14 @@
+# 100 hours haunted woods. Gathering 50%, Nature 30%
+Peppercorn Seed, 787
+Pumpkin Seed, 773
+Mushroom Spore, 770
+Willow Tree Seed, 383
+Maple Tree Seed, 398
+Yew Tree Seed, 396
+Branch, 40386
+Willow Log, 40526
+Maple Log, 40566
+Yew Log, 20326
+Bird's Nest, 22
+Mushroom, 3077
+Pumpkin, 3114

@@ -1,0 +1,16 @@
+# 100 hours Living Forest. Gathering 50%, Nature 30%
+Tomato Seed, 355
+Yew Tree Seed, 197
+Banana Tree Seed, 168
+Apple Tree Seed, 164
+Elder Tree Seed, 16
+Log, 18048
+Oak Log, 18364
+Willow Log, 17886
+Maple Log, 18202
+Yew Log, 18467
+Bird's Nest, 30
+Honey, 1495
+Tomato, 1325
+Apple, 13886
+Banana, 1489

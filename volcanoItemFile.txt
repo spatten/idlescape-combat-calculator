@@ -1,0 +1,11 @@
+# 100 hours of Volcano
+Gold Ore, 11621
+Mithril Ore, 23242
+Adamantite Ore, 23242
+Runite Ore, 23242
+Silver, 24210
+Rune Slate, 12105
+Gold Bar, 484
+Mithril Bar, 968
+Adamantite Bar, 968
+Runite Bar, 968

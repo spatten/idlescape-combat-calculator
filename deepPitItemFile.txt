@@ -1,0 +1,8 @@
+# 100 hours of Deep Pit
+Gold Ore, 19808
+Runite Ore, 39616
+Rune Slate, 20634
+Stygian Ore, 7923
+Gold Bar, 825
+Runite Bar, 1651
+Stygian Bar, 330

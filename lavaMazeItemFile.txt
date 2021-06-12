@@ -1,0 +1,23 @@
+# Lava Maze, 5:45
+Burnt Fish, 679
+Gold Ore, 8664
+Rune Slate, 36
+Sapphire, 2
+Diamond, 2
+Air Rune, 64
+Earth Rune, 43
+Fire Rune, 61
+Water Rune, 93
+Blood Rune, 57
+Death Rune, 72
+Chaos Rune, 59
+Nature Rune, 51
+Mind Rune, 86
+Cosmic Rune, 51
+Ichor, 1410
+Satchel, 1
+Adamantite Boots, 3
+Runite Boots, 2
+Scroll, 15
+Spider Legs, 213
+Ashes, 656
