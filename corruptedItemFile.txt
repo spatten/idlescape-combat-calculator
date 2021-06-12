@@ -1,0 +1,54 @@
+# Corrupted, 51:40
+Book, 2
+Gold Ore, 2251
+Runite Ore, 1365
+Rune Slate, 852
+Stygian Ore, 625
+Carrot Seed, 181
+Peppercorn Seed, 216
+Sugarcane Seed, 169
+Wheat Seed, 190
+Potato Seed, 177
+Rice Seed, 190
+Tomato Seed, 168
+Wildberry Bush Seed, 158
+Chili Pepper Seed, 142
+Pumpkin Seed, 128
+Mushroom Spore, 205
+Tree Seed, 16
+Oak Tree Seed, 11
+Willow Tree Seed, 11
+Maple Tree Seed, 13
+Yew Tree Seed, 15
+Banana Tree Seed, 10
+Apple Tree Seed, 13
+Mysterious Seed, 26
+Gold Bar, 1779
+Runite Bar, 596
+Stygian Bar, 85
+Branch, 874
+Log, 920
+Oak Log, 700
+Willow Log, 563
+Maple Log, 567
+Yew Log, 623
+Sapphire, 9
+Emerald, 11
+Ruby, 3
+Diamond, 6
+Black Opal, 3
+Air Rune, 20
+Earth Rune, 14
+Fire Rune, 15
+Water Rune, 21
+Blood Rune, 12
+Death Rune, 1399
+Chaos Rune, 151
+Earth Rune, 1581
+Mind Rune, 8
+Cosmic Rune, 18
+Ichor, 3038
+Satchel, 20
+Stygian Boots, 3
+Decayed Cloak, 1
+Naga's Bracelet, 1
