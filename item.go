@@ -12,16 +12,14 @@ import (
 	"golang.org/x/text/message"
 )
 
-type gold uint32
-type heat uint32
 type ItemID int
 
 // Item is an item in Idlescape
 type Item struct {
 	Name  string
 	ID    ItemID
-	Heat  heat
-	Price gold
+	Heat  int
+	Price int
 }
 
 type ItemCount struct {
@@ -69,20 +67,20 @@ func parseItems(pricesFile io.Reader) (ItemList, error) {
 	if !ok {
 		return nil, fmt.Errorf("obsidian helm not found")
 	}
-	helm.Price = gold(1500000)
+	helm.Price = 1500000
 	items["Obsidian Helm"] = helm
 	return items, nil
 }
 
 // CalculateTotal calculates the total worth in gold of a slice of ItemCount
-func (itemList ItemList) CalculateTotal(items []ItemCount) (gold, error) {
-	total := gold(0)
+func (itemList ItemList) CalculateTotal(items []ItemCount) (int, error) {
+	total := 0
 	for _, counter := range items {
 		item, exists := itemList[counter.Name]
 		if !exists {
 			return 0, fmt.Errorf("item in list not found: %v", counter)
 		}
-		total = total + item.Price*gold(counter.Count)
+		total = total + item.Price*counter.Count
 	}
 	return total, nil
 }
@@ -156,7 +154,7 @@ func (items ItemList) Table(counts []ItemCount) string {
 		if !ok {
 			continue
 		}
-		amount := item.Price * gold(count.Count)
+		amount := item.Price * count.Count
 		percent := float32(amount) / float32(total) * 100.0
 		line := p.Sprintf("%20s\t%d\t%10d\t%10d\t%.2f\n", count.Name, count.Count, item.Price, amount, percent)
 		table = table + line
