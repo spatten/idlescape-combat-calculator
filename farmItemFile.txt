@@ -1,0 +1,12 @@
+# Farm, 3.2833 hours
+Gold, 6432
+Copper Ore, 30
+Tin Ore, 8
+Silver, 9
+Branch, 504
+Feather, 591
+Raw Chicken, 881
+Raw Beef, 884
+Goblin Brain, 71
+Milk, 401
+Egg, 516

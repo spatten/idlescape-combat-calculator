@@ -1,23 +1,26 @@
-# Lava Maze, 5:45
-Burnt Fish, 679
-Gold Ore, 8664
-Rune Slate, 36
-Sapphire, 2
-Diamond, 2
-Air Rune, 64
-Earth Rune, 43
-Fire Rune, 61
-Water Rune, 93
-Blood Rune, 57
-Death Rune, 72
-Chaos Rune, 59
-Nature Rune, 51
-Mind Rune, 86
-Cosmic Rune, 51
-Ichor, 1410
-Satchel, 1
-Adamantite Boots, 3
-Runite Boots, 2
-Scroll, 15
-Spider Legs, 213
-Ashes, 656
+# Lava Maze, 22.08333 hours
+Burnt Fish, 2547
+Gold Ore, 33482
+Rune Slate, 127
+Sapphire, 11
+Emerald, 4
+Ruby, 3
+Diamond, 4
+Black Opal, 2
+Air Rune, 268
+Earth Rune, 260
+Fire Rune, 252
+Water Rune, 276
+Blood Rune, 253
+Death Rune, 248
+Chaos Rune, 215
+Nature Rune, 227
+Mind Rune, 278
+Cosmic Rune, 223
+Ichor, 5410
+Satchel, 2
+Adamantite Boots, 7
+Runite Boots, 4
+Scroll, 63
+Spider Legs, 860
+Ashes, 2641
