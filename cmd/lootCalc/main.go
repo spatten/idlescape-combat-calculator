@@ -4,6 +4,7 @@ import (
 	combatcalculator "combatCalculator"
 	"log"
 	"os"
+	"sort"
 
 	"golang.org/x/text/message"
 )
@@ -33,7 +34,9 @@ func main() {
 
 	p.Println()
 
-	p.Printf(itemList.Table(items))
+	table := itemList.Table(items)
+	sort.Sort(table)
+	p.Printf(table.String())
 
 	p.Printf("\ntotal: %d\n", total)
 }

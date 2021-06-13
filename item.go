@@ -8,8 +8,6 @@ import (
 	"os"
 	"strconv"
 	"strings"
-
-	"golang.org/x/text/message"
 )
 
 type ItemID int
@@ -145,10 +143,9 @@ func parseItemLine(line string) (ItemCount, error) {
 	return ItemCount{Name: name, Count: count}, nil
 }
 
-func (items ItemList) Table(counts []ItemCount) string {
+func (items ItemList) Table(counts []ItemCount) ItemTable {
 	total, _ := items.CalculateTotal(counts)
-	p := message.NewPrinter(message.MatchLanguage("en"))
-	table := p.Sprintf("%20s\t%s\t%s\t%s\t%s\n", "Item", "Count", "Gold/Item", "Gold Total", "Percent")
+	table := make([]ItemRow, 0, len(counts))
 	for _, count := range counts {
 		item, ok := items[count.Name]
 		if !ok {
@@ -156,8 +153,14 @@ func (items ItemList) Table(counts []ItemCount) string {
 		}
 		amount := item.Price * count.Count
 		percent := float32(amount) / float32(total) * 100.0
-		line := p.Sprintf("%20s\t%d\t%10d\t%10d\t%.2f\n", count.Name, count.Count, item.Price, amount, percent)
-		table = table + line
+		row := ItemRow{
+			Name:    count.Name,
+			Count:   count.Count,
+			Price:   item.Price,
+			Percent: percent,
+		}
+
+		table = append(table, row)
 	}
-	return table
+	return ItemTable(table)
 }
