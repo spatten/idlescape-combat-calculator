@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <body>
+<div class="monster">
+  <p>Small Rat</p>
+{{Combat Logs|Small Rat}}
+</div>
+
+<div class="monster">
+  <p>Chicken</p>
+{{Combat Logs|Chicken}}
+</div>
+
+<div class="monster">
+  <p>Cow</p>
+{{Combat Logs|Cow}}
+</div>
+
+<div class="monster">
+  <p>Goblin</p>
+{{Combat Logs|Goblin}}
+</div>
+
+<div class="monster">
+  <p>Imp</p>
+{{Combat Logs|Imp}}
+</div>
+
+<div class="monster">
+  <p>Greater Imp</p>
+{{Combat Logs|Greater Imp}}
+</div>
+
+<div class="monster">
+  <p>Guard</p>
+{{Combat Logs|Guard}}
+</div>
+
+<div class="monster">
+  <p>Black Knight</p>
+{{Combat Logs|Black Knight}}
+</div>
+
+<div class="monster">
+  <p>Deadly Red Spider</p>
+{{Combat Logs|Deadly Red Spider}}
+</div>
+
+<div class="monster">
+  <p>Lesser Demon</p>
+{{Combat Logs|Lesser Demon}}
+</div>
+
+<div class="monster">
+  <p>Spriggan</p>
+{{Combat Logs|Spriggan}}
+</div>
+
+<div class="monster">
+  <p>Greater Demon</p>
+{{Combat Logs|Greater Demon}}
+</div>
+
+<div class="monster">
+  <p>Corrupted Tree</p>
+{{Combat Logs|Corrupted Tree}}
+</div>
+
+<div class="monster">
+  <p>Infected Naga</p>
+{{Combat Logs|Infected Naga}}
+</div>
+
+<div class="monster">
+  <p>Bone Giant</p>
+{{Combat Logs|Bone Giant}}
+</div>
+
+<div class="monster">
+  <p>Fire Giant</p>
+{{Combat Logs|Fire Giant}}
+</div>
+
+<div class="monster">
+  <p>Moss Giant</p>
+{{Combat Logs|Moss Giant}}
+</div>
+
+<div class="monster">
+  <p>Ice Giant</p>
+{{Combat Logs|Ice Giant}}
+</div>
+
+</body></html>
