@@ -1,6 +1,10 @@
 package combatcalculator
 
-import "fmt"
+import (
+	"fmt"
+
+	"golang.org/x/text/message"
+)
 
 type Zone []ZoneMonster
 
@@ -148,6 +152,7 @@ func CalcDropsForZone(zone ZoneData, zoneKPH float64, itemList ItemList) (map[st
 	var total float64
 	for _, monster := range zone.Monsters {
 		monsterKPH := monster.EncounterRate * zoneKPH
+		fmt.Printf("%s (%.2f kills):\n", monster.Name, monster.EncounterRate*zoneKPH)
 		gold, err := CalcDropsForMonster(monsterKPH, monster.DropTable, itemList)
 		if err != nil {
 			return res, fmt.Errorf("calculating drops for %s: %v", monster.Name, err)
@@ -161,12 +166,17 @@ func CalcDropsForZone(zone ZoneData, zoneKPH float64, itemList ItemList) (map[st
 
 func CalcDropsForMonster(kills float64, dropTable DropTable, itemList ItemList) (float64, error) {
 	total := 0.0
+	p := message.NewPrinter(message.MatchLanguage("en"))
 	for _, row := range dropTable {
 		item, ok := itemList[row.Name]
 		if !ok {
 			return 0.0, fmt.Errorf("%s not found in pricelist", row.Name)
 		}
-		total += float64(item.Price) * row.Chances[6] * kills
+		amount := float64(item.Price) * row.Chances[6] * kills
+
+		p.Printf("  %s: %d (price) x %.6f (chance) x %.0f (kph) = %.2f\n", row.Name, item.Price, row.Chances[6], kills, amount)
+		total += amount
 	}
+	p.Printf("  Total: %.2f\n", total)
 	return total, nil
 }
