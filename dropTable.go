@@ -12,15 +12,15 @@ import (
 	"golang.org/x/net/html"
 )
 
-type LootTable []LootRow
+type DropTable []DropRow
 
-type LootRow struct {
+type DropRow struct {
 	Chances map[int]float64
 	Name    string
 }
 
-func ReadLootTable(path string) (map[string]LootTable, error) {
-	tables := make(map[string]LootTable)
+func ReadLootTable(path string) (map[string]DropTable, error) {
+	tables := make(map[string]DropTable)
 	lootFile, err := os.Open(path)
 	if err != nil {
 		return tables, fmt.Errorf("error opening loot file at %s: %v", path, err)
@@ -39,10 +39,10 @@ func ReadLootTable(path string) (map[string]LootTable, error) {
 		log.Printf("\n------\n%s:\n", name)
 
 		rows := rowSelector.MatchAll(mob)
-		lootRows := make([]LootRow, 0, len(rows))
+		lootRows := make([]DropRow, 0, len(rows))
 		// first row is the header
 		for _, row := range rows {
-			lootRow := LootRow{}
+			lootRow := DropRow{}
 			cols := colSelector.MatchAll(row)
 			if len(cols) == 0 {
 				continue
@@ -60,7 +60,7 @@ func ReadLootTable(path string) (map[string]LootTable, error) {
 			}
 			lootRows = append(lootRows, lootRow)
 		}
-		tables[name] = LootTable(lootRows)
+		tables[name] = DropTable(lootRows)
 	}
 	return tables, nil
 }
