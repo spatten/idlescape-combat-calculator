@@ -143,6 +143,30 @@ func AddDropTablesToZones(zones []ZoneData, dropTables map[string]DropTable) (ma
 	return zoneData, nil
 }
 
-// func CalcDropsForZone(zone ZoneData, kph int) (float64, error) {
+func CalcDropsForZone(zone ZoneData, zoneKPH float64, itemList ItemList) (map[string]float64, error) {
+	res := make(map[string]float64)
+	var total float64
+	for _, monster := range zone.Monsters {
+		monsterKPH := monster.EncounterRate * zoneKPH
+		gold, err := CalcDropsForMonster(monsterKPH, monster.DropTable, itemList)
+		if err != nil {
+			return res, fmt.Errorf("calculating drops for %s: %v", monster.Name, err)
+		}
+		res[monster.Name] = gold
+		total += gold
+	}
+	res["total"] = total
+	return res, nil
+}
 
-// }
+func CalcDropsForMonster(kills float64, dropTable DropTable, itemList ItemList) (float64, error) {
+	total := 0.0
+	for _, row := range dropTable {
+		item, ok := itemList[row.Name]
+		if !ok {
+			return 0.0, fmt.Errorf("%s not found in pricelist", row.Name)
+		}
+		total += float64(item.Price) * row.Chances[6] * kills
+	}
+	return total, nil
+}
