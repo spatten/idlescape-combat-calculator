@@ -19,7 +19,7 @@ type DropRow struct {
 	Name    string
 }
 
-func ReadLootTable(path string) (map[string]DropTable, error) {
+func ReadDropTable(path string) (map[string]DropTable, error) {
 	tables := make(map[string]DropTable)
 	lootFile, err := os.Open(path)
 	if err != nil {
