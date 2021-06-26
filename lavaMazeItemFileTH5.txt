@@ -1,0 +1,27 @@
+# Lava Maze, TH+5, 24:15
+Burnt Fish, 3123
+Gold Ore, 40961
+Rune Slate, 169
+Mysterious Seed, 5
+Sapphire, 15
+Emerald, 8
+Ruby, 5
+Diamond, 7
+Black Opal, 0
+Air Rune, 307
+Earth Rune, 363
+Fire Rune, 326
+Water Rune, 282
+Blood Rune, 311
+Death Rune, 350
+Chaos Rune, 286
+Nature Rune, 284
+Mind Rune, 343
+Cosmic Rune, 316
+Ichor, 5883
+Satchel, 0
+Adamantite Boots, 4
+Runite Boots, 5
+Scroll, 72
+Spider Legs, 1037
+Ashes, 3072
