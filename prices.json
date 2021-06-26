@@ -5,25 +5,25 @@
       "name": "Book",
       "image": "/images/misc/book.png",
       "heat": 50,
-      "price": 50000
+      "price": 45000
     },
     {
       "id": 60,
       "name": "Raw Shrimp",
       "image": "/images/fishing/raw_shrimp.png",
-      "price": 550
+      "price": 600
     },
     {
       "id": 61,
       "name": "Raw Anchovy",
       "image": "/images/fishing/raw_anchovy.png",
-      "price": 240
+      "price": 200
     },
     {
       "id": 62,
       "name": "Raw Trout",
       "image": "/images/fishing/raw_trout.png",
-      "price": 450
+      "price": 440
     },
     {
       "id": 63,
@@ -35,79 +35,79 @@
       "id": 64,
       "name": "Raw Lobster",
       "image": "/images/fishing/raw_lobster.png",
-      "price": 975
+      "price": 760
     },
     {
       "id": 65,
       "name": "Raw Tuna",
       "image": "/images/fishing/raw_tuna.png",
-      "price": 1045
+      "price": 800
     },
     {
       "id": 66,
       "name": "Raw Shark",
       "image": "/images/fishing/raw_shark.png",
-      "price": 1315
+      "price": 1140
     },
     {
       "id": 95,
       "name": "Burnt Fish",
       "image": "/images/cooking/burnt_fish.png",
-      "price": 440
+      "price": 388
     },
     {
       "id": 96,
       "name": "Burnt Food",
       "image": "/images/cooking/burnt_food.png",
-      "price": 280
+      "price": 810
     },
     {
       "id": 101,
       "name": "Copper Ore",
       "image": "/images/mining/copper_ore.png",
-      "price": 350
+      "price": 419
     },
     {
       "id": 102,
       "name": "Tin Ore",
       "image": "/images/mining/tin_ore.png",
-      "price": 325
+      "price": 389
     },
     {
       "id": 103,
       "name": "Iron Ore",
       "image": "/images/mining/iron_ore.png",
-      "price": 830
+      "price": 888
     },
     {
       "id": 104,
       "name": "Gold Ore",
       "image": "/images/mining/gold_ore.png",
-      "price": 182
+      "price": 225
     },
     {
       "id": 105,
       "name": "Mithril Ore",
       "image": "/images/mining/mithril_ore.png",
-      "price": 968
+      "price": 1298
     },
     {
       "id": 106,
       "name": "Adamantite Ore",
       "image": "/images/mining/adamantite_ore.png",
-      "price": 320
+      "price": 500
     },
     {
       "id": 107,
       "name": "Runite Ore",
       "image": "/images/mining/runite_ore.png",
-      "price": 921
+      "price": 1174
     },
     {
       "id": 108,
       "name": "Clay",
       "image": "/images/mining/clay.png",
-      "price": 170
+      "price": 120
     },
     {
       "id": 109,
@@ -119,362 +119,362 @@
       "id": 110,
       "name": "Sand",
       "image": "/images/mining/sand.png",
-      "price": 650
+      "price": 720
     },
     {
       "id": 111,
       "name": "Silver",
       "image": "/images/mining/silver.png",
-      "price": 1800
+      "price": 1694
     },
     {
       "id": 112,
       "name": "Coal",
       "image": "/images/mining/coal.png",
       "heat": 10,
-      "price": 60
+      "price": 75
     },
     {
       "id": 113,
       "name": "Rune Slate",
       "image": "/images/runecrafting/rune_slate.png",
-      "price": 40
+      "price": 65
     },
     {
       "id": 114,
       "name": "Stygian Ore",
       "image": "/images/mining/stygian_ore.png",
-      "price": 2730
+      "price": 2799
     },
     {
       "id": 150,
       "name": "Fertilizer",
       "image": "/images/farming/fertilizer.png",
-      "price": 7500
+      "price": 8555
     },
     {
       "id": 151,
       "name": "Carrot Seed",
       "image": "/images/farming/carrot_seed.png",
-      "price": 474
+      "price": 500
     },
     {
       "id": 152,
       "name": "Peppercorn Seed",
       "image": "/images/farming/peppercorn_seed.png",
-      "price": 4400
+      "price": 4500
     },
     {
       "id": 153,
       "name": "Sugarcane Seed",
       "image": "/images/farming/sugarcane_seed.png",
-      "price": 2639
+      "price": 3800
     },
     {
       "id": 154,
       "name": "Wheat Seed",
       "image": "/images/farming/wheat_seed.png",
-      "price": 479
+      "price": 799
     },
     {
       "id": 155,
       "name": "Potato Seed",
       "image": "/images/farming/potato_seed.png",
-      "price": 1239
+      "price": 1200
     },
     {
       "id": 156,
       "name": "Rice Seed",
       "image": "/images/farming/rice_seed.png",
-      "price": 1639
+      "price": 1500
     },
     {
       "id": 157,
       "name": "Tomato Seed",
       "image": "/images/farming/tomato_seed.png",
-      "price": 4990
+      "price": 2000
     },
     {
       "id": 158,
       "name": "Wildberry Bush Seed",
       "image": "/images/farming/wildberry_bush_seed.png",
-      "price": 1450
+      "price": 700
     },
     {
       "id": 159,
       "name": "Chili Pepper Seed",
       "image": "/images/farming/chili_pepper_seed.png",
-      "price": 9750
+      "price": 10000
     },
     {
       "id": 160,
       "name": "Pumpkin Seed",
       "image": "/images/farming/pumpkin_seed.png",
-      "price": 6800
+      "price": 10069
     },
     {
       "id": 161,
       "name": "Mushroom Spore",
       "image": "/images/farming/mushroom_spore.png",
-      "price": 540
+      "price": 500
     },
     {
       "id": 170,
       "name": "Tree Seed",
       "image": "/images/farming/tree_seed.png",
-      "price": 390
+      "price": 250
     },
     {
       "id": 171,
       "name": "Oak Tree Seed",
       "image": "/images/farming/oak_tree_seed.png",
-      "price": 1790
+      "price": 599
     },
     {
       "id": 172,
       "name": "Willow Tree Seed",
       "image": "/images/farming/willow_tree_seed.png",
-      "price": 3740
+      "price": 4200
     },
     {
       "id": 173,
       "name": "Maple Tree Seed",
       "image": "/images/farming/maple_tree_seed.png",
-      "price": 19800
+      "price": 14000
     },
     {
       "id": 174,
       "name": "Yew Tree Seed",
       "image": "/images/farming/yew_tree_seed.png",
-      "price": 99100
+      "price": 91000
     },
     {
       "id": 175,
       "name": "Banana Tree Seed",
       "image": "/images/farming/banana_tree_seed.png",
-      "price": 6700
+      "price": 9000
     },
     {
       "id": 176,
       "name": "Apple Tree Seed",
       "image": "/images/farming/apple_tree_seed.png",
-      "price": 8900
+      "price": 9400
     },
     {
       "id": 177,
       "name": "Elder Tree Seed",
       "image": "/images/farming/elder_tree_seed.png",
-      "price": 930000
+      "price": 878999
     },
     {
       "id": 180,
       "name": "Sageberry Bush Seed",
       "image": "/images/farming/sageberry_seed.png",
-      "price": 440000
+      "price": 388999
     },
     {
       "id": 185,
       "name": "Mysterious Seed",
       "image": "/images/farming/mysterious_seed.png",
-      "price": 249000
+      "price": 170000
     },
     {
       "id": 201,
       "name": "Bronze Bar",
       "image": "/images/smithing/bronze_bar.png",
-      "price": 940
+      "price": 850
     },
     {
       "id": 202,
       "name": "Iron Bar",
       "image": "/images/smithing/iron_bar.png",
-      "price": 2800
+      "price": 2970
     },
     {
       "id": 203,
       "name": "Gold Bar",
       "image": "/images/smithing/gold_bar.png",
-      "price": 2500
+      "price": 2200
     },
     {
       "id": 204,
       "name": "Mithril Bar",
       "image": "/images/smithing/mithril_bar.png",
-      "price": 7500
+      "price": 7740
     },
     {
       "id": 205,
       "name": "Adamantite Bar",
       "image": "/images/smithing/adamantite_bar.png",
-      "price": 5760
+      "price": 6960
     },
     {
       "id": 206,
       "name": "Runite Bar",
       "image": "/images/smithing/runite_bar.png",
-      "price": 10890
+      "price": 12125
     },
     {
       "id": 207,
       "name": "Stygian Bar",
       "image": "/images/smithing/stygian_bar.png",
-      "price": 84999
+      "price": 87899
     },
     {
       "id": 301,
       "name": "Branch",
       "image": "/images/foraging/branch.png",
       "heat": 1,
-      "price": 55
+      "price": 46
     },
     {
       "id": 302,
       "name": "Log",
       "image": "/images/foraging/log.png",
       "heat": 5,
-      "price": 150
+      "price": 124
     },
     {
       "id": 303,
       "name": "Oak Log",
       "image": "/images/foraging/oak_log.png",
       "heat": 10,
-      "price": 170
+      "price": 144
     },
     {
       "id": 304,
       "name": "Willow Log",
       "image": "/images/foraging/willow_log.png",
       "heat": 20,
-      "price": 175
+      "price": 160
     },
     {
       "id": 305,
       "name": "Maple Log",
       "image": "/images/foraging/maple_log.png",
       "heat": 70,
-      "price": 410
+      "price": 420
     },
     {
       "id": 306,
       "name": "Yew Log",
       "image": "/images/foraging/yew_log.png",
       "heat": 200,
-      "price": 1636
+      "price": 1597
     },
     {
       "id": 400,
       "name": "Sapphire",
       "image": "/images/mining/sapphire.png",
-      "price": 4160
+      "price": 7499
     },
     {
       "id": 401,
       "name": "Emerald",
       "image": "/images/mining/emerald.png",
-      "price": 4860
+      "price": 4590
     },
     {
       "id": 402,
       "name": "Ruby",
       "image": "/images/mining/ruby.png",
-      "price": 109000
+      "price": 150000
     },
     {
       "id": 403,
       "name": "Diamond",
       "image": "/images/mining/diamond.png",
-      "price": 224000
+      "price": 200000
     },
     {
       "id": 404,
       "name": "Black Opal",
       "image": "/images/mining/black_opal.png",
-      "price": 3199000
+      "price": 2999999
     },
     {
       "id": 500,
       "name": "Air Talisman",
       "image": "/images/runecrafting/air_talisman.png",
-      "price": 350000
+      "price": 199999
     },
     {
       "id": 501,
       "name": "Earth Talisman",
       "image": "/images/runecrafting/earth_talisman.png",
-      "price": 175000
+      "price": 219999
     },
     {
       "id": 502,
       "name": "Fire Talisman",
       "image": "/images/runecrafting/fire_talisman.png",
-      "price": 149000
+      "price": 170000
     },
     {
       "id": 503,
       "name": "Water Talisman",
       "image": "/images/runecrafting/water_talisman.png",
-      "price": 147000
+      "price": 180000
     },
     {
       "id": 504,
       "name": "Blood Talisman",
       "image": "/images/runecrafting/blood_talisman.png",
-      "price": 168168
+      "price": 279999
     },
     {
       "id": 505,
       "name": "Death Talisman",
       "image": "/images/runecrafting/death_talisman.png",
-      "price": 289900
+      "price": 230000
     },
     {
       "id": 506,
       "name": "Chaos Talisman",
       "image": "/images/runecrafting/chaos_talisman.png",
-      "price": 210000
+      "price": 199999
     },
     {
       "id": 507,
       "name": "Nature Talisman",
       "image": "/images/runecrafting/nature_talisman.png",
-      "price": 159000
+      "price": 190000
     },
     {
       "id": 508,
       "name": "Mind Talisman",
       "image": "/images/runecrafting/mind_talisman.png",
-      "price": 5600000
+      "price": 5800000
     },
     {
       "id": 509,
       "name": "Cosmic Talisman",
       "image": "/images/runecrafting/cosmic_talisman.png",
-      "price": 301111
+      "price": 400000
     },
     {
       "id": 510,
       "name": "Air Rune",
       "image": "/images/runecrafting/air_rune.png",
-      "price": 162
+      "price": 60
     },
     {
       "id": 511,
       "name": "Earth Rune",
       "image": "/images/runecrafting/earth_rune.png",
-      "price": 93
+      "price": 39
     },
     {
       "id": 512,
       "name": "Fire Rune",
       "image": "/images/runecrafting/fire_rune.png",
-      "price": 33
+      "price": 22
     },
     {
       "id": 513,
       "name": "Water Rune",
       "image": "/images/runecrafting/water_rune.png",
-      "price": 36
+      "price": 37
     },
     {
       "id": 514,
@@ -486,247 +486,247 @@
       "id": 515,
       "name": "Death Rune",
       "image": "/images/runecrafting/death_rune.png",
-      "price": 765
+      "price": 340
     },
     {
       "id": 516,
       "name": "Chaos Rune",
       "image": "/images/runecrafting/chaos_rune.png",
-      "price": 102
+      "price": 100
     },
     {
       "id": 517,
       "name": "Nature Rune",
       "image": "/images/runecrafting/nature_rune.png",
-      "price": 90
+      "price": 100
     },
     {
       "id": 518,
       "name": "Mind Rune",
       "image": "/images/runecrafting/mind_rune.png",
-      "price": 7750
+      "price": 4000
     },
     {
       "id": 519,
       "name": "Cosmic Rune",
       "image": "/images/runecrafting/cosmic_rune.png",
-      "price": 249
+      "price": 217
     },
     {
       "id": 600,
       "name": "Bronze Pickaxe",
       "image": "/images/mining/bronze_pickaxe.png",
-      "price": 7000
+      "price": 2000
     },
     {
       "id": 601,
       "name": "Iron Pickaxe",
       "image": "/images/mining/iron_pickaxe.png",
-      "price": 10000
+      "price": 12500
     },
     {
       "id": 602,
       "name": "Mithril Pickaxe",
       "image": "/images/mining/mithril_pickaxe.png",
-      "price": 50000
+      "price": 59999
     },
     {
       "id": 603,
       "name": "Adamantite Pickaxe",
       "image": "/images/mining/adamantite_pickaxe.png",
-      "price": 500000
+      "price": 490000
     },
     {
       "id": 604,
       "name": "Runite Pickaxe",
       "image": "/images/mining/rune_pickaxe.png",
-      "price": 2146000
+      "price": 2189990
     },
     {
       "id": 605,
       "name": "Stygian Pickaxe",
       "image": "/images/mining/stygian_pickaxe.png",
-      "price": 26000000
+      "price": 29000000
     },
     {
       "id": 610,
       "name": "Bronze Hatchet",
       "image": "/images/foraging/bronze_hatchet.png",
-      "price": 8000
+      "price": 5000
     },
     {
       "id": 611,
       "name": "Iron Hatchet",
       "image": "/images/foraging/iron_hatchet.png",
-      "price": 45500
+      "price": 29900
     },
     {
       "id": 612,
       "name": "Mithril Hatchet",
       "image": "/images/foraging/mithril_hatchet.png",
-      "price": 50000
+      "price": 60000
     },
     {
       "id": 613,
       "name": "Adamantite Hatchet",
       "image": "/images/foraging/adamantite_hatchet.png",
-      "price": 650000
+      "price": 670000
     },
     {
       "id": 614,
       "name": "Runite Hatchet",
       "image": "/images/foraging/rune_hatchet.png",
-      "price": 2299990
+      "price": 2333333
     },
     {
       "id": 615,
       "name": "Stygian Hatchet",
       "image": "/images/foraging/stygian_hatchet.png",
-      "price": 35994998
+      "price": 29850000
     },
     {
       "id": 620,
       "name": "Sapphire Ring",
       "image": "/images/jewellery/sapphire_ring.png",
-      "price": 129998
+      "price": 120000
     },
     {
       "id": 621,
       "name": "Sapphire Necklace",
       "image": "/images/jewellery/sapphire_necklace.png",
-      "price": 269999
+      "price": 170000
     },
     {
       "id": 622,
       "name": "Emerald Ring",
       "image": "/images/jewellery/emerald_ring.png",
-      "price": 140000
+      "price": 144999
     },
     {
       "id": 623,
       "name": "Emerald Necklace",
       "image": "/images/jewellery/emerald_necklace.png",
-      "price": 300000
+      "price": 249000
     },
     {
       "id": 624,
       "name": "Ruby Ring",
       "image": "/images/jewellery/ruby_ring.png",
-      "price": 204000
+      "price": 201999
     },
     {
       "id": 625,
       "name": "Ruby Necklace",
       "image": "/images/jewellery/ruby_necklace.png",
-      "price": 190000
+      "price": 200000
     },
     {
       "id": 626,
       "name": "Diamond Ring",
       "image": "/images/jewellery/diamond_ring.png",
-      "price": 315000
+      "price": 308000
     },
     {
       "id": 627,
       "name": "Diamond Necklace",
       "image": "/images/jewellery/diamond_necklace.png",
-      "price": 310000
+      "price": 303998
     },
     {
       "id": 628,
       "name": "Prismatic Necklace",
       "image": "/images/jewellery/prismatic_necklace.png",
-      "price": 1787000000
+      "price": 2105263158
     },
     {
       "id": 629,
       "name": "Prismatic Ring",
       "image": "/images/jewellery/prismatic_ring.png",
-      "price": 1695000000
+      "price": 2000000000
     },
     {
       "id": 630,
       "name": "Black Opal Ring",
       "image": "/images/jewellery/black_opal_ring.png",
-      "price": 3000000
+      "price": 3199000
     },
     {
       "id": 631,
       "name": "Black Opal Necklace",
       "image": "/images/jewellery/black_opal_necklace.png",
-      "price": 2999999
+      "price": 3499999
     },
     {
       "id": 640,
       "name": "Gold Ring",
       "image": "/images/jewellery/gold_ring.png",
-      "price": 199000
+      "price": 218990
     },
     {
       "id": 641,
       "name": "Gold Necklace",
       "image": "/images/jewellery/gold_necklace.png",
-      "price": 250000
+      "price": 220000
     },
     {
       "id": 660,
       "name": "Bronze Hoe",
       "image": "/images/farming/bronze_hoe.png",
-      "price": 11900
+      "price": 6000
     },
     {
       "id": 661,
       "name": "Iron Hoe",
       "image": "/images/farming/iron_hoe.png",
-      "price": 70000
+      "price": 12000
     },
     {
       "id": 662,
       "name": "Mithril Hoe",
       "image": "/images/farming/mithril_hoe.png",
-      "price": 50000
+      "price": 55000
     },
     {
       "id": 663,
       "name": "Adamantite Hoe",
       "image": "/images/farming/adamantite_hoe.png",
-      "price": 489999
+      "price": 490000
     },
     {
       "id": 664,
       "name": "Runite Hoe",
       "image": "/images/farming/runite_hoe.png",
-      "price": 2699999
+      "price": 3000000
     },
     {
       "id": 665,
       "name": "Stygian Hoe",
       "image": "/images/farming/stygian_hoe.png",
-      "price": 29996989
+      "price": 29999000
     },
     {
       "id": 690,
       "name": "Fishing Net",
       "image": "/images/fishing/net.png",
-      "price": 400
+      "price": 950
     },
     {
       "id": 691,
       "name": "Fly Fishing Rod",
       "image": "/images/fishing/fishing_rod.png",
-      "price": 3400
+      "price": 1999
     },
     {
       "id": 692,
       "name": "Cage",
       "image": "/images/fishing/fishing_cage_2.png",
-      "price": 277000
+      "price": 275000
     },
     {
       "id": 693,
       "name": "Harpoon",
       "image": "/images/fishing/harpoon.png",
-      "price": 108500
+      "price": 74998
     },
     {
       "id": 700,
@@ -738,204 +738,204 @@
       "id": 701,
       "name": "Fish Oil",
       "image": "/images/cooking/fish_oil.png",
-      "price": 5700
+      "price": 4150
     },
     {
       "id": 702,
       "name": "Pyre Log",
       "image": "/images/foraging/pyre.png",
       "heat": 100,
-      "price": 1750
+      "price": 2100
     },
     {
       "id": 703,
       "name": "Pyre Oak Log",
       "image": "/images/foraging/oak_pyre.png",
       "heat": 200,
-      "price": 1500
+      "price": 1900
     },
     {
       "id": 704,
       "name": "Pyre Willow Log",
       "image": "/images/foraging/willow_pyre.png",
       "heat": 400,
-      "price": 7900
+      "price": 6499
     },
     {
       "id": 705,
       "name": "Pyre Maple Log",
       "image": "/images/foraging/maple_pyre.png",
       "heat": 800,
-      "price": 5350
+      "price": 6700
     },
     {
       "id": 706,
       "name": "Pyre Yew Log",
       "image": "/images/foraging/yew_pyre.png",
       "heat": 3000,
-      "price": 19500
+      "price": 18000
     },
     {
       "id": 800,
       "name": "Ichor",
       "image": "/images/smithing/ichor.png",
-      "price": 940
+      "price": 950
     },
     {
       "id": 900,
       "name": "Geode",
       "image": "/images/misc/geode.png",
-      "price": 368000
+      "price": 314999
     },
     {
       "id": 901,
       "name": "Bird's Nest",
       "image": "/images/misc/bird_nest.png",
-      "price": 368888
+      "price": 269999
     },
     {
       "id": 902,
       "name": "Sunken Treasure",
       "image": "/images/misc/sunken_treasure.png",
-      "price": 1479899
+      "price": 1250000
     },
     {
       "id": 903,
       "name": "Satchel",
       "image": "/images/misc/satchel.png",
-      "price": 299999
+      "price": 275000
     },
     {
       "id": 1000,
       "name": "Bronze Scimitar",
       "image": "/images/combat/equipment/bronze_scimitar_icon.png",
-      "price": 9000
+      "price": 7799
     },
     {
       "id": 1001,
       "name": "Bronze Battleaxe",
       "image": "/images/combat/equipment/bronze_battleaxe_icon.png",
-      "price": 9999
+      "price": 4000
     },
     {
       "id": 1002,
       "name": "Bronze Daggers",
       "image": "/images/combat/equipment/bronze_daggers_icon.png",
-      "price": 8690
+      "price": 2500
     },
     {
       "id": 1003,
       "name": "Bronze Greatsword",
       "image": "/images/combat/equipment/bronze_2h_sword_icon.png",
-      "price": 6399
+      "price": 18000
     },
     {
       "id": 1004,
       "name": "Iron Scimitar",
       "image": "/images/combat/equipment/iron_scimitar_icon.png",
-      "price": 85000
+      "price": 39000
     },
     {
       "id": 1005,
       "name": "Iron Battleaxe",
       "image": "/images/combat/equipment/iron_battleaxe_icon.png",
-      "price": 8421
+      "price": 9999
     },
     {
       "id": 1006,
       "name": "Iron Daggers",
       "image": "/images/combat/equipment/iron_daggers_icon.png",
-      "price": 24999
+      "price": 39000
     },
     {
       "id": 1007,
       "name": "Iron Greatsword",
       "image": "/images/combat/equipment/iron_2h_sword_icon.png",
-      "price": 12500
+      "price": 15000
     },
     {
       "id": 1008,
       "name": "Obsidian Scimitar",
       "image": "/images/combat/equipment/black_scimitar_icon.png",
-      "price": 100000
+      "price": 94748
     },
     {
       "id": 1009,
       "name": "Obsidian Battleaxe",
       "image": "/images/combat/equipment/black_battleaxe_icon.png",
-      "price": 126773
+      "price": 119777
     },
     {
       "id": 1010,
       "name": "Obsidian Daggers",
       "image": "/images/combat/equipment/black_daggers_icon.png",
-      "price": 260000
+      "price": 200000
     },
     {
       "id": 1011,
       "name": "Obsidian Greatsword",
       "image": "/images/combat/equipment/black_2h_sword_icon.png",
-      "price": 598000
+      "price": 549999
     },
     {
       "id": 1012,
       "name": "Mithril Scimitar",
       "image": "/images/combat/equipment/mithril_scimitar_icon.png",
-      "price": 65000
+      "price": 60000
     },
     {
       "id": 1013,
       "name": "Mithril Battleaxe",
       "image": "/images/combat/equipment/mithril_battleaxe_icon.png",
-      "price": 69000
+      "price": 69998
     },
     {
       "id": 1014,
       "name": "Mithril Daggers",
       "image": "/images/combat/equipment/mithril_daggers_icon.png",
-      "price": 40000
+      "price": 48000
     },
     {
       "id": 1015,
       "name": "Mithril Greatsword",
       "image": "/images/combat/equipment/mithril_2h_sword_icon.png",
-      "price": 85000
+      "price": 81000
     },
     {
       "id": 1016,
       "name": "Adamantite Scimitar",
       "image": "/images/combat/equipment/adamantite_scimitar_icon.png",
-      "price": 550000
+      "price": 500000
     },
     {
       "id": 1017,
       "name": "Adamantite Battleaxe",
       "image": "/images/combat/equipment/adamantite_battleaxe_icon.png",
-      "price": 760000
+      "price": 669999
     },
     {
       "id": 1018,
       "name": "Adamantite Daggers",
       "image": "/images/combat/equipment/adamantite_daggers_icon.png",
-      "price": 384500
+      "price": 385000
     },
     {
       "id": 1019,
       "name": "Adamantite Greatsword",
       "image": "/images/combat/equipment/adamantite_2h_sword_icon.png",
-      "price": 777777
+      "price": 777776
     },
     {
       "id": 1020,
       "name": "Runite Scimitar",
       "image": "/images/combat/equipment/rune_scimitar_icon.png",
-      "price": 2000000
+      "price": 2295000
     },
     {
       "id": 1021,
       "name": "Runite Battleaxe",
       "image": "/images/combat/equipment/rune_battleaxe_icon.png",
-      "price": 2450000
+      "price": 2300000
     },
     {
       "id": 1022,
@@ -947,409 +947,409 @@
       "id": 1023,
       "name": "Runite Greatsword",
       "image": "/images/combat/equipment/rune_2h_sword_icon.png",
-      "price": 2696969
+      "price": 2699999
     },
     {
       "id": 1024,
       "name": "Stygian Scimitar",
       "image": "/images/combat/equipment/stygian_scimitar_icon.png",
-      "price": 18999999
+      "price": 20900000
     },
     {
       "id": 1025,
       "name": "Stygian Battleaxe",
       "image": "/images/combat/equipment/stygian_battleaxe_icon.png",
-      "price": 14999999
+      "price": 4500000
     },
     {
       "id": 1026,
       "name": "Stygian Daggers",
       "image": "/images/combat/equipment/stygian_daggers_icon.png",
-      "price": 6900000
+      "price": 6000000
     },
     {
       "id": 1027,
       "name": "Stygian Greatsword",
       "image": "/images/combat/equipment/stygian_2h_sword_icon.png",
-      "price": 19999999
+      "price": 10000000
     },
     {
       "id": 1050,
       "name": "Bronze Helm",
       "image": "/images/combat/equipment/bronze_med_helm_icon.png",
-      "price": 9500
+      "price": 9998
     },
     {
       "id": 1051,
       "name": "Iron Helm",
       "image": "/images/combat/equipment/iron_med_helm_icon.png",
-      "price": 28000
+      "price": 35000
     },
     {
       "id": 1052,
       "name": "Obsidian Helm",
       "image": "/images/combat/equipment/black_med_helm_icon.png",
-      "price": 820000
+      "price": 849998
     },
     {
       "id": 1053,
       "name": "Mithril Helm",
       "image": "/images/combat/equipment/mithril_med_helm_icon.png",
-      "price": 39000
+      "price": 40000
     },
     {
       "id": 1054,
       "name": "Adamantite Helm",
       "image": "/images/combat/equipment/adamantite_med_helm_icon.png",
-      "price": 405000
+      "price": 388000
     },
     {
       "id": 1055,
       "name": "Runite Helm",
       "image": "/images/combat/equipment/rune_med_helm_icon.png",
-      "price": 1749999
+      "price": 1650000
     },
     {
       "id": 1056,
       "name": "Stygian Helm",
       "image": "/images/combat/equipment/stygian_med_helm_icon.png",
-      "price": 9999999
+      "price": 7456522
     },
     {
       "id": 1060,
       "name": "Bronze Full Helm",
       "image": "/images/combat/equipment/bronze_full_helm.png",
-      "price": 2000
+      "price": 844
     },
     {
       "id": 1061,
       "name": "Iron Full Helm",
       "image": "/images/combat/equipment/iron_full_helm.png",
-      "price": 17999
+      "price": 13000
     },
     {
       "id": 1062,
       "name": "Obsidian Full Helm",
       "image": "/images/combat/equipment/black_full_helm.png",
-      "price": 1675000
+      "price": 1580000
     },
     {
       "id": 1063,
       "name": "Mithril Full Helm",
       "image": "/images/combat/equipment/mithril_full_helm.png",
-      "price": 190000
+      "price": 125000
     },
     {
       "id": 1064,
       "name": "Adamantite Full Helm",
       "image": "/images/combat/equipment/adamantite_full_helm.png",
-      "price": 535353
+      "price": 540000
     },
     {
       "id": 1065,
       "name": "Runite Full Helm",
       "image": "/images/combat/equipment/rune_full_helm.png",
-      "price": 1999999
+      "price": 2050000
     },
     {
       "id": 1066,
       "name": "Stygian Full Helm",
       "image": "/images/combat/equipment/stygian_full_helm.png",
-      "price": 32000000
+      "price": 28500000
     },
     {
       "id": 1070,
       "name": "Bronze Shield",
       "image": "/images/combat/equipment/bronze_shield_icon.png",
-      "price": 3500
+      "price": 1600
     },
     {
       "id": 1071,
       "name": "Iron Shield",
       "image": "/images/combat/equipment/iron_shield_icon.png",
-      "price": 11998
+      "price": 8999
     },
     {
       "id": 1072,
       "name": "Obsidian Shield",
       "image": "/images/combat/equipment/black_shield_icon.png",
-      "price": 116998
+      "price": 119775
     },
     {
       "id": 1073,
       "name": "Mithril Shield",
       "image": "/images/combat/equipment/mithril_shield_icon.png",
-      "price": 123123
+      "price": 90000
     },
     {
       "id": 1074,
       "name": "Adamantite Shield",
       "image": "/images/combat/equipment/adamantite_shield_icon.png",
-      "price": 1100000
+      "price": 690000
     },
     {
       "id": 1075,
       "name": "Runite Shield",
       "image": "/images/combat/equipment/rune_shield_icon.png",
-      "price": 2499999
+      "price": 2500000
     },
     {
       "id": 1076,
       "name": "Stygian Shield",
       "image": "/images/combat/equipment/stygian_shield_icon.png",
-      "price": 28000000
+      "price": 22999999
     },
     {
       "id": 1090,
       "name": "Bronze Breastplate",
       "image": "/images/combat/equipment/bronze_platebody.png",
-      "price": 15000
+      "price": 2000
     },
     {
       "id": 1091,
       "name": "Bronze Chainmail",
       "image": "/images/combat/equipment/bronze_chainbody.png",
-      "price": 1450
+      "price": 1400
     },
     {
       "id": 1092,
       "name": "Iron Breastplate",
       "image": "/images/combat/equipment/iron_platebody.png",
-      "price": 13992
+      "price": 13000
     },
     {
       "id": 1093,
       "name": "Iron Chainmail",
       "image": "/images/combat/equipment/iron_chainbody.png",
-      "price": 8700
+      "price": 8799
     },
     {
       "id": 1094,
       "name": "Obsidian Breastplate",
       "image": "/images/combat/equipment/black_platebody.png",
-      "price": 190000
+      "price": 189776
     },
     {
       "id": 1095,
       "name": "Obsidian Chainmail",
       "image": "/images/combat/equipment/black_chainbody.png",
-      "price": 116994
+      "price": 119777
     },
     {
       "id": 1096,
       "name": "Mithril Breastplate",
       "image": "/images/combat/equipment/mithril_platebody.png",
-      "price": 94000
+      "price": 98000
     },
     {
       "id": 1097,
       "name": "Mithril Chainmail",
       "image": "/images/combat/equipment/mithril_chainbody.png",
-      "price": 65997
+      "price": 65998
     },
     {
       "id": 1098,
       "name": "Adamantite Breastplate",
       "image": "/images/combat/equipment/adamantite_platebody.png",
-      "price": 777777
+      "price": 800000
     },
     {
       "id": 1099,
       "name": "Adamantite Chainmail",
       "image": "/images/combat/equipment/adamantite_chainbody.png",
-      "price": 598950
+      "price": 590000
     },
     {
       "id": 1100,
       "name": "Runite Breastplate",
       "image": "/images/combat/equipment/rune_platebody.png",
-      "price": 3100000
+      "price": 3000000
     },
     {
       "id": 1101,
       "name": "Runite Chainmail",
       "image": "/images/combat/equipment/rune_chainbody.png",
-      "price": 2450000
+      "price": 2440000
     },
     {
       "id": 1102,
       "name": "Stygian Breastplate",
       "image": "/images/combat/equipment/stygian_platebody.png",
-      "price": 44998990
+      "price": 45500000
     },
     {
       "id": 1103,
       "name": "Stygian Chainmail",
       "image": "/images/combat/equipment/stygian_chainbody.png",
-      "price": 19000000
+      "price": 9999999
     },
     {
       "id": 1110,
       "name": "Bronze Plate Leggings",
       "image": "/images/combat/equipment/bronze_platelegs.png",
-      "price": 25999
+      "price": 30000
     },
     {
       "id": 1111,
       "name": "Iron Plate Leggings",
       "image": "/images/combat/equipment/iron_platelegs.png",
-      "price": 45000
+      "price": 39000
     },
     {
       "id": 1112,
       "name": "Obsidian Plate Leggings",
       "image": "/images/combat/equipment/black_platelegs.png",
-      "price": 99000
+      "price": 94776
     },
     {
       "id": 1113,
       "name": "Mithril Plate Leggings",
       "image": "/images/combat/equipment/mithril_platelegs.png",
-      "price": 85000
+      "price": 98000
     },
     {
       "id": 1114,
       "name": "Adamantite Plate Leggings",
       "image": "/images/combat/equipment/adamantite_platelegs.png",
-      "price": 510000
+      "price": 590000
     },
     {
       "id": 1115,
       "name": "Runite Plate Leggings",
       "image": "/images/combat/equipment/rune_platelegs.png",
-      "price": 2369420
+      "price": 2120000
     },
     {
       "id": 1116,
       "name": "Stygian Plate Leggings",
       "image": "/images/combat/equipment/stygian_platelegs.png",
-      "price": 30998990
+      "price": 30999999
     },
     {
       "id": 1130,
       "name": "Bronze Boots",
       "image": "/images/combat/equipment/bronze_boots_icon.png",
-      "price": 6800
+      "price": 1200
     },
     {
       "id": 1131,
       "name": "Iron Boots",
       "image": "/images/combat/equipment/iron_boots_icon.png",
-      "price": 8500
+      "price": 8499
     },
     {
       "id": 1132,
       "name": "Obsidian Boots",
       "image": "/images/combat/equipment/black_boots_icon.png",
-      "price": 114000
+      "price": 90000
     },
     {
       "id": 1133,
       "name": "Mithril Boots",
       "image": "/images/combat/equipment/mithril_boots_icon.png",
-      "price": 61000
+      "price": 65000
     },
     {
       "id": 1134,
       "name": "Adamantite Boots",
       "image": "/images/combat/equipment/adamantite_boots_icon.png",
-      "price": 487997
+      "price": 483456
     },
     {
       "id": 1135,
       "name": "Runite Boots",
       "image": "/images/combat/equipment/rune_boots_icon.png",
-      "price": 1849996
+      "price": 1843000
     },
     {
       "id": 1136,
       "name": "Stygian Boots",
       "image": "/images/combat/equipment/stygian_boots_icon.png",
-      "price": 2980000
+      "price": 2950000
     },
     {
       "id": 1500,
       "name": "Santa Hat",
       "image": "/images/combat/equipment/santa_hat.png",
-      "price": 950000000
+      "price": 600000000
     },
     {
       "id": 1501,
       "name": "Snowman Head",
       "image": "/images/combat/equipment/snowman_head.png",
-      "price": 225000000
+      "price": 200000000
     },
     {
       "id": 1502,
       "name": "Tophat",
       "image": "/images/combat/equipment/tophat.png",
-      "price": 99750000
+      "price": 420420420
     },
     {
       "id": 1503,
       "name": "Lesser Ladle",
       "image": "/images/combat/equipment/lesser_ladle.png",
-      "price": 1499999
+      "price": 1200000
     },
     {
       "id": 1504,
       "name": "Ladle",
       "image": "/images/combat/equipment/ladle.png",
-      "price": 1406969
+      "price": 1099999
     },
     {
       "id": 1505,
       "name": "Greater Ladle",
       "image": "/images/combat/equipment/greater_ladle.png",
-      "price": 1500000
+      "price": 1099999
     },
     {
       "id": 1506,
       "name": "Moss Maul",
       "image": "/images/combat/equipment/moss_maul_icon.png",
-      "price": 45499999
+      "price": 38498765
     },
     {
       "id": 1507,
       "name": "Modified Diving Gloves",
       "image": "/images/combat/equipment/modified_diving_gloves_icon.png",
-      "price": 55000000
+      "price": 34999999
     },
     {
       "id": 1508,
       "name": "King's Crown",
       "image": "/images/combat/equipment/kings_crown.png",
-      "price": 44000000
+      "price": 46995322
     },
     {
       "id": 1509,
       "name": "Fire Orb",
       "image": "/images/combat/equipment/fire_orb.png",
-      "price": 45000000
+      "price": 39995574
     },
     {
       "id": 1510,
       "name": "Kalanahmatti",
       "image": "/images/combat/equipment/kalanahmatti.png",
-      "price": 50999999
+      "price": 49999993
     },
     {
       "id": 1511,
       "name": "Shard of Kalanahmatti",
       "image": "/images/combat/equipment/shard_of_kalanahmatti_icon.png",
-      "price": 53000000
+      "price": 54000000
     },
     {
       "id": 1512,
       "name": "Zero Edge",
       "image": "/images/combat/equipment/zero_edge_icon.png",
-      "price": 46000000
+      "price": 64900000
     },
     {
       "id": 1513,
       "name": "Crest of Chaos",
       "image": "/images/combat/equipment/crest_of_chaos_icon.png",
-      "price": 42000000
+      "price": 39977777
     },
     {
       "id": 1514,
@@ -1361,61 +1361,61 @@
       "id": 1515,
       "name": "Forgotten Soul",
       "image": "/images/combat/equipment/forgotten-soul-crazy-icon.png",
-      "price": 199999999
+      "price": 150000000
     },
     {
       "id": 1516,
       "name": "Forgotten Soul",
       "image": "/images/combat/equipment/forgotten-soul-mad-icon.png",
-      "price": 120000000
+      "price": 220000000
     },
     {
       "id": 1517,
       "name": "Gargoyle Chainmail",
       "image": "/images/combat/equipment/gargoyle_chain.png",
-      "price": 50000000
+      "price": 5500000
     },
     {
       "id": 1518,
       "name": "Gargoyle Legs",
       "image": "/images/combat/equipment/gargoyle_pants.png",
-      "price": 6000000
+      "price": 5000000
     },
     {
       "id": 1519,
       "name": "Gargoyle Boots",
       "image": "/images/combat/equipment/gargoyle_boots_icon.png",
-      "price": 1690000
+      "price": 900000
     },
     {
       "id": 1520,
       "name": "Gargoyle Helm",
       "image": "/images/combat/equipment/gargoyle_helm_icon.png",
-      "price": 150000
+      "price": 300000
     },
     {
       "id": 1521,
       "name": "Gargoyle Shield",
       "image": "/images/combat/equipment/gargoyle_shield_1.png",
-      "price": 2500000
+      "price": 6999999
     },
     {
       "id": 1522,
       "name": "Gargoyle Falchion",
       "image": "/images/combat/equipment/gargoyle_falcion_icon.png",
-      "price": 1999500
+      "price": 2200000
     },
     {
       "id": 1523,
       "name": "Gargoyle Daggers",
       "image": "/images/combat/equipment/dagger_gargoyle_icon.png",
-      "price": 400000
+      "price": 150000
     },
     {
       "id": 1524,
       "name": "Gargoyle Glaive",
       "image": "/images/combat/equipment/gargoyle_glaive_icon.png",
-      "price": 75000000
+      "price": 55000000
     },
     {
       "id": 1525,
@@ -1427,79 +1427,79 @@
       "id": 1526,
       "name": "Black Knight Great Helm",
       "image": "/images/combat/equipment/black_black_knight_great_helm_icon.png",
-      "price": 47999997
+      "price": 51000000
     },
     {
       "id": 1527,
       "name": "Chorus of Souls",
       "image": "/images/combat/equipment/chorus_of_souls_icon.png",
-      "price": 13000000
+      "price": 8050000
     },
     {
       "id": 1528,
       "name": "Decayed Cloak",
       "image": "/images/combat/equipment/decayed_cloak_hood.png",
-      "price": 40500000
+      "price": 40000000
     },
     {
       "id": 1530,
       "name": "Mysterious Man",
       "image": "/images/combat/equipment/hatcontest_mysterious_man_icon.png",
-      "price": 333333
+      "price": 1300000
     },
     {
       "id": 1531,
       "name": "Corny Joke",
       "image": "/images/combat/equipment/hatcontest_cornyjoke_icon.png",
-      "price": 450000
+      "price": 5000000
     },
     {
       "id": 1532,
       "name": "Death Metal Wig",
       "image": "/images/combat/equipment/hatcontest_death_metal_wig_icon.png",
-      "price": 666666
+      "price": 850000
     },
     {
       "id": 1544,
       "name": "Naga's Bracelet",
       "image": "/images/combat/equipment/nagas_bracelet.png",
-      "price": 900000
+      "price": 799998
     },
     {
       "id": 1600,
       "name": "Scroll",
       "image": "/images/enchanting/scroll.png",
-      "price": 4440
+      "price": 3500
     },
     {
       "id": 1601,
       "name": "Scroll of Embers",
       "image": "/images/enchanting/scroll_of_embers.png",
-      "price": 990000
+      "price": 975000
     },
     {
       "id": 1602,
       "name": "Scroll of the Prospector",
       "image": "/images/enchanting/scroll_of_the_prospector.png",
-      "price": 999998
+      "price": 900000
     },
     {
       "id": 1603,
       "name": "Scroll of the Scholar",
       "image": "/images/enchanting/scroll_of_the_scholar.png",
-      "price": 3739900
+      "price": 3490984
     },
     {
       "id": 1604,
       "name": "Scroll of Gathering",
       "image": "/images/enchanting/scroll_of_gathering.png",
-      "price": 2000000
+      "price": 2500000
     },
     {
       "id": 1605,
       "name": "Scroll of Superheating",
       "image": "/images/enchanting/scroll_of_superheating.png",
-      "price": 1996990
+      "price": 1894999
     },
     {
       "id": 1606,
@@ -1511,385 +1511,385 @@
       "id": 1607,
       "name": "Scroll of Wealth",
       "image": "/images/enchanting/scroll_of_wealth.png",
-      "price": 1689980
+      "price": 2299972
     },
     {
       "id": 1608,
       "name": "Scroll of Haste",
       "image": "/images/enchanting/scroll_of_haste.png",
-      "price": 7439934
+      "price": 6700000
     },
     {
       "id": 1609,
       "name": "Scroll of Naturalist",
       "image": "/images/enchanting/scroll_of_naturalist_v2.png",
-      "price": 1372180
+      "price": 2000000
     },
     {
       "id": 1611,
       "name": "Scroll of Critical Strike",
       "image": "/images/enchanting/scroll_of_critical_strike.png",
-      "price": 1390000
+      "price": 1293000
     },
     {
       "id": 1613,
       "name": "Scroll of Accuracy",
       "image": "/images/enchanting/scroll_of_critical_strike.png",
-      "price": 1199999
+      "price": 1647000
     },
     {
       "id": 1615,
       "name": "Scroll of Force",
       "image": "/images/enchanting/scroll_of_force.png",
-      "price": 2898883
+      "price": 2892997
     },
     {
       "id": 1616,
       "name": "Scroll of Healing",
       "image": "/images/enchanting/scroll_of_healing.png",
-      "price": 875000
+      "price": 419999
     },
     {
       "id": 1617,
       "name": "Scroll of Weakening",
       "image": "/images/enchanting/scroll_of_weakening.png",
-      "price": 628000
+      "price": 308000
     },
     {
       "id": 1618,
       "name": "Scroll of Reinforcement",
       "image": "/images/enchanting/scroll_of_reinforcement.png",
-      "price": 971980
+      "price": 980999
     },
     {
       "id": 1619,
       "name": "Scroll of Protection",
       "image": "/images/enchanting/scroll_of_reinforcement.png",
-      "price": 948000
+      "price": 1399994
     },
     {
       "id": 1621,
       "name": "Scroll of Recklessness",
       "image": "/images/enchanting/scroll_of_recklessness.png",
-      "price": 2197769
+      "price": 2047999
     },
     {
       "id": 1622,
       "name": "Scroll of Efficiency",
       "image": "/images/enchanting/scroll_of_efficiency.png",
-      "price": 3898950
+      "price": 3898988
     },
     {
       "id": 1623,
       "name": "Scroll of Fishing",
       "image": "/images/enchanting/scroll_of_fishing.png",
-      "price": 3197000
+      "price": 2499000
     },
     {
       "id": 1624,
       "name": "Scroll of Cooking",
       "image": "/images/enchanting/scroll_of_cooking.png",
-      "price": 1495980
+      "price": 1096930
     },
     {
       "id": 1625,
       "name": "Scroll of Crafting",
       "image": "/images/enchanting/scroll_of_efficiency.png",
-      "price": 1499999
+      "price": 1499995
     },
     {
       "id": 1626,
       "name": "Scroll of Refining",
       "image": "/images/enchanting/scroll_of_refining.png",
-      "price": 990000
+      "price": 998975
     },
     {
       "id": 1627,
       "name": "Scroll of Runecrafting",
       "image": "/images/enchanting/scroll_of_runecrafting.png",
-      "price": 1755540
+      "price": 1643000
     },
     {
       "id": 1628,
       "name": "Scroll of Chances",
       "image": "/images/enchanting/scroll_of_chances.png",
-      "price": 2197970
+      "price": 2171817
     },
     {
       "id": 1629,
       "name": "Scroll of the Shrimp Lord",
       "image": "/images/enchanting/scroll_of_the_shrimp_lord.png",
-      "price": 500000
+      "price": 50000
     },
     {
       "id": 1630,
       "name": "Scroll of Enlightenment",
       "image": "/images/enchanting/scroll_of_enlightment.png",
-      "price": 3618974
+      "price": 2789984
     },
     {
       "id": 1631,
       "name": "Scroll of Prolonging",
       "image": "/images/enchanting/scroll_of_boosting.png",
-      "price": 2330000
+      "price": 2697994
     },
     {
       "id": 1632,
       "name": "Scroll of the Treasure Hunter",
       "image": "/images/enchanting/scroll_of_treasure_hunter.png",
-      "price": 2648850
+      "price": 2197895
     },
     {
       "id": 1633,
       "name": "Scroll of Inferno",
       "image": "/images/enchanting/scroll_of_inferno.png",
-      "price": 1300000
+      "price": 1499970
     },
     {
       "id": 1634,
       "name": "Scroll of Destructive Testing",
       "image": "/images/enchanting/scroll_of_destructive_testing.png",
-      "price": 949999
+      "price": 987998
     },
     {
       "id": 1635,
       "name": "Scroll of Nature",
       "image": "/images/enchanting/scroll_of_the_nature.png",
-      "price": 1382895
+      "price": 700000
     },
     {
       "id": 1636,
       "name": "Scroll of Root Digging",
       "image": "/images/enchanting/scroll_of_root_digging.png",
-      "price": 587000
+      "price": 680000
     },
     {
       "id": 1637,
       "name": "Scroll of Patience",
       "image": "/images/enchanting/scroll_of_patience.png",
-      "price": 2412440
+      "price": 2276000
     },
     {
       "id": 1638,
       "name": "Scroll of Overhealing",
       "image": "/images/enchanting/scroll_of_overhealing.png",
-      "price": 545555
+      "price": 545554
     },
     {
       "id": 1639,
       "name": "Scroll of Farming",
       "image": "/images/enchanting/scroll_farming.png",
-      "price": 2184900
+      "price": 2175000
     },
     {
       "id": 1640,
       "name": "Scroll of the Gold Digger",
       "image": "/images/enchanting/scroll_golddigger.png",
-      "price": 1440000
+      "price": 1200000
     },
     {
       "id": 1641,
       "name": "Scroll of Fertilizing",
       "image": "/images/enchanting/scroll_fertilizing.png",
-      "price": 7999999
+      "price": 6993999
     },
     {
       "id": 1642,
       "name": "Scroll of Cultivation",
       "image": "/images/enchanting/scroll_cultivation.png",
-      "price": 1100000
+      "price": 742000
     },
     {
       "id": 2000,
       "name": "Raw Chicken",
       "image": "/images/cooking/raw_chicken.png",
-      "price": 300
+      "price": 150
     },
     {
       "id": 2001,
       "name": "Raw Beef",
       "image": "/images/cooking/raw_beef.png",
-      "price": 250
+      "price": 140
     },
     {
       "id": 2009,
       "name": "Spider Legs",
       "image": "/images/cooking/spider_legs.png",
-      "price": 377
+      "price": 390
     },
     {
       "id": 2010,
       "name": "Goblin Brain",
       "image": "/images/cooking/goblin_brain.png",
-      "price": 375
+      "price": 490
     },
     {
       "id": 2012,
       "name": "Pepper",
       "image": "/images/cooking/pepper.png",
-      "price": 28
+      "price": 45
     },
     {
       "id": 2013,
       "name": "Salt",
       "image": "/images/cooking/salt.png",
-      "price": 74
+      "price": 150
     },
     {
       "id": 2014,
       "name": "Ashes",
       "image": "/images/cooking/ashes.png",
-      "price": 206
+      "price": 200
     },
     {
       "id": 2015,
       "name": "Sugar",
       "image": "/images/cooking/sugar.png",
-      "price": 225
+      "price": 250
     },
     {
       "id": 2016,
       "name": "Honey",
       "image": "/images/cooking/honey.png",
-      "price": 650
+      "price": 800
     },
     {
       "id": 2017,
       "name": "Milk",
       "image": "/images/cooking/milk.png",
-      "price": 590
+      "price": 1599
     },
     {
       "id": 2018,
       "name": "Butter",
       "image": "/images/cooking/butter.png",
-      "price": 3900
+      "price": 1100
     },
     {
       "id": 2019,
       "name": "Egg",
       "image": "/images/cooking/egg.png",
-      "price": 1250
+      "price": 1099
     },
     {
       "id": 2020,
       "name": "Mushroom",
       "image": "/images/cooking/mushroom.png",
-      "price": 537
+      "price": 680
     },
     {
       "id": 2021,
       "name": "Carrot",
       "image": "/images/cooking/carrot.png",
-      "price": 75
+      "price": 120
     },
     {
       "id": 2022,
       "name": "Chili Pepper",
       "image": "/images/cooking/chili_pepper.png",
-      "price": 2499
+      "price": 2200
     },
     {
       "id": 2023,
       "name": "Potato",
       "image": "/images/cooking/potato.png",
-      "price": 600
+      "price": 639
     },
     {
       "id": 2024,
       "name": "Pumpkin",
       "image": "/images/cooking/pumpkin.png",
-      "price": 1475
+      "price": 2000
     },
     {
       "id": 2025,
       "name": "Tomato",
       "image": "/images/cooking/tomato.png",
-      "price": 400
+      "price": 450
     },
     {
       "id": 2026,
       "name": "Apple",
       "image": "/images/cooking/apple.png",
-      "price": 500
+      "price": 599
     },
     {
       "id": 2027,
       "name": "Wildberry",
       "image": "/images/cooking/wildberry.png",
-      "price": 200
+      "price": 130
     },
     {
       "id": 2028,
       "name": "Banana",
       "image": "/images/cooking/banana.png",
-      "price": 640
+      "price": 649
     },
     {
       "id": 2029,
       "name": "Wheat",
       "image": "/images/cooking/wheat.png",
-      "price": 140
+      "price": 199
     },
     {
       "id": 2030,
       "name": "Rice",
       "image": "/images/cooking/rice.png",
-      "price": 125
+      "price": 100
     },
     {
       "id": 2031,
       "name": "Sageberry",
       "image": "/images/farming/sage_berry.png",
-      "price": 114999
+      "price": 90000
     },
     {
       "id": 2100,
       "name": "Questionable Food",
       "image": "/images/cooking/questionable_food.png",
-      "price": 275
+      "price": 90
     },
     {
       "id": 2101,
       "name": "Monster Surprise",
       "image": "/images/cooking/monster_surprise.png",
-      "price": 444
+      "price": 500
     },
     {
       "id": 2102,
       "name": "Seared Steak",
       "image": "/images/cooking/seared_steak.png",
-      "price": 150
+      "price": 50
     },
     {
       "id": 2103,
       "name": "Seared Fish",
       "image": "/images/cooking/seared_fish.png",
-      "price": 35
+      "price": 30
     },
     {
       "id": 2104,
       "name": "Seared Poultry",
       "image": "/images/cooking/seared_bird.png",
-      "price": 150
+      "price": 299
     },
     {
       "id": 2105,
       "name": "Birdie Pasta",
       "image": "/images/cooking/birdie_pasta.png",
-      "price": 2970
+      "price": 2495
     },
     {
       "id": 2106,
       "name": "Spaghetti & Meat",
       "image": "/images/cooking/spaghetti_meat.png",
-      "price": 3500
+      "price": 3495
     },
     {
       "id": 2107,
       "name": "Sushi",
       "image": "/images/cooking/sushi.png",
-      "price": 1000
+      "price": 250
     },
     {
       "id": 2108,
@@ -1907,7 +1907,7 @@
       "id": 2110,
       "name": "Fisherman's Pie",
       "image": "/images/cooking/fisherman_pie.png",
-      "price": 10000000
+      "price": 100000
     },
     {
       "id": 2111,
@@ -1919,25 +1919,25 @@
       "id": 2112,
       "name": "Demon Cake",
       "image": "/images/cooking/demon_cake.png",
-      "price": 15000
+      "price": 2500
     },
     {
       "id": 2113,
       "name": "Cake",
       "image": "/images/cooking/cake.png",
-      "price": 75000
+      "price": 500
     },
     {
       "id": 2114,
       "name": "Fruit Cake",
       "image": "/images/cooking/fruit_cake.png",
-      "price": 500
+      "price": 389
     },
     {
       "id": 2115,
       "name": "Grain Cake",
       "image": "/images/cooking/grain_cake.png",
-      "price": 35000
+      "price": 28000
     },
     {
       "id": 2116,
@@ -1949,7 +1949,7 @@
       "id": 2117,
       "name": "Monster Omelette",
       "image": "/images/cooking/monster_omelette.png",
-      "price": 5800
+      "price": 4000
     },
     {
       "id": 2118,
@@ -1961,7 +1961,7 @@
       "id": 2119,
       "name": "Veggie Crepe",
       "image": "/images/cooking/veggie_crepe.png",
-      "price": 1250
+      "price": 490
     },
     {
       "id": 2120,
@@ -1973,55 +1973,55 @@
       "id": 2121,
       "name": "Eggnog",
       "image": "/images/cooking/egg_nog.png",
-      "price": 8000
+      "price": 1500
     },
     {
       "id": 2122,
       "name": "Meat Roast",
       "image": "/images/cooking/meat_roast.png",
-      "price": 2050
+      "price": 1250
     },
     {
       "id": 2123,
       "name": "Fried Fruit",
       "image": "/images/cooking/fried_fruit.png",
-      "price": 100
+      "price": 110
     },
     {
       "id": 2124,
       "name": "Grilled Veggies",
       "image": "/images/cooking/grilled_veggies.png",
-      "price": 104
+      "price": 100
     },
     {
       "id": 2125,
       "name": "Kebabs",
       "image": "/images/cooking/kababs.png",
-      "price": 300
+      "price": 222
     },
     {
       "id": 2126,
       "name": "Candied Fruit",
       "image": "/images/cooking/candied_fruit.png",
-      "price": 170
+      "price": 500
     },
     {
       "id": 2127,
       "name": "Milkshake",
       "image": "/images/cooking/milkshake.png",
-      "price": 20000
+      "price": 90000
     },
     {
       "id": 2128,
       "name": "Vegetable Stew",
       "image": "/images/cooking/veggie_stew.png",
-      "price": 500000
+      "price": 450000
     },
     {
       "id": 2129,
       "name": "Meaty Stew",
       "image": "/images/cooking/meaty_stew.png",
-      "price": 600
+      "price": 300
     },
     {
       "id": 2130,
@@ -2033,19 +2033,19 @@
       "id": 2131,
       "name": "Jerky",
       "image": "/images/cooking/jerky.png",
-      "price": 4999
+      "price": 450
     },
     {
       "id": 2132,
       "name": "Pudding",
       "image": "/images/cooking/pudding.png",
-      "price": 11000
+      "price": 10500
     },
     {
       "id": 2133,
       "name": "Ice Cream",
       "image": "/images/cooking/icecream.png",
-      "price": 12500
+      "price": 2500
     },
     {
       "id": 2134,
@@ -2063,79 +2063,79 @@
       "id": 2136,
       "name": "Beast Curry",
       "image": "/images/cooking/beast_curry.png",
-      "price": 9000
+      "price": 7450
     },
     {
       "id": 2137,
       "name": "Seafood Curry",
       "image": "/images/cooking/seafood_curry.png",
-      "price": 1600
+      "price": 800
     },
     {
       "id": 2138,
       "name": "Monster Gelato",
       "image": "/images/cooking/monster_gelato.png",
-      "price": 50000
+      "price": 10000
     },
     {
       "id": 7029,
       "name": "Magical Snowball",
       "image": "/images/christmas/magical_snowball.png",
-      "price": 2750000
+      "price": 2300000
     },
     {
       "id": 7030,
       "name": "Candy Cane Daggers",
       "image": "/images/christmas/candy_cane_daggers_icon.png",
-      "price": 13000000
+      "price": 15000000
     },
     {
       "id": 7031,
       "name": "Festive Shroud",
       "image": "/images/christmas/festive_shroud_hood.png",
-      "price": 114999999
+      "price": 130000000
     },
     {
       "id": 8001,
       "name": "Black Knight's Trial",
       "image": "/images/misc/elite/Elite_Scroll_BK.png",
-      "price": 29500000
+      "price": 17500000
     },
     {
       "id": 8002,
       "name": "Giant Scroll",
       "image": "/images/misc/elite/Elite_Scroll_Giant.png",
-      "price": 4000000
+      "price": 3800000
     },
     {
       "id": 8003,
       "name": "Corroded Scroll",
       "image": "/images/misc/elite/Elite_Scroll_Corroded.png",
-      "price": 8475000
+      "price": 4100000
     },
     {
       "id": 8004,
       "name": "Stew Stained Page",
       "image": "/images/misc/elite/Elite_Scroll_Goblin.png",
-      "price": 10290000
+      "price": 9000000
     },
     {
       "id": 8005,
       "name": "Cluster-Cluck",
       "image": "/images/misc/elite/Elite_Scroll_Chicken.png",
-      "price": 32000000
+      "price": 31420555
     },
     {
       "id": 8006,
       "name": "Demonic Trial",
       "image": "/images/misc/elite/Elite_Scroll_Demon.png",
-      "price": 5250000
+      "price": 3000000
     },
     {
       "id": 8007,
       "name": "Taproot Scroll",
       "image": "/images/misc/elite/Elite_Scroll_Spriggan.png",
-      "price": 15000000
+      "price": 9950000
     }
   ],
   "discord": "discord.gg/JaRsXS4XDw"
